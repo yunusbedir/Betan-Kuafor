@@ -1,0 +1,199 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:tools="http://schemas.android.com/tools">
+
+    <style name="TextStyle">
+        <item name="fontFamily">@font/urbanist</item>
+        <item name="android:fontFamily">@font/urbanist</item>
+        <item name="android:textColor">@color/greyscale900</item>
+    </style>
+
+    <style name="TextStyle.H1.Bold" parent="TextStyle">
+        <item name="android:textSize">48sp</item>
+        <item name="fontWeight">700</item>
+        <item name="android:fontWeight" tools:targetApi="o">700</item>
+        <item name="android:textFontWeight" tools:targetApi="p">700</item>
+        <item name="android:textStyle">bold</item>
+        <item name="lineHeight">52.8dp</item>
+        <item name="android:lineHeight" tools:targetApi="p">52.8dp</item>
+    </style>
+
+    <style name="TextStyle.H2.Bold" parent="TextStyle">
+        <item name="android:textSize">40sp</item>
+        <item name="fontWeight">700</item>
+        <item name="android:fontWeight" tools:targetApi="o">700</item>
+        <item name="android:textFontWeight" tools:targetApi="p">700</item>
+        <item name="android:textStyle">bold</item>
+        <item name="lineHeight">52.8dp</item>
+        <item name="android:lineHeight" tools:targetApi="p">52.8dp</item>
+    </style>
+
+    <style name="TextStyle.H3.Bold" parent="TextStyle">
+        <item name="android:textSize">32sp</item>
+        <item name="fontWeight">700</item>
+        <item name="android:fontWeight" tools:targetApi="o">700</item>
+        <item name="android:textFontWeight" tools:targetApi="p">700</item>
+        <item name="android:textStyle">bold</item>
+        <item name="lineHeight">52.8dp</item>
+        <item name="android:lineHeight" tools:targetApi="p">52.8dp</item>
+    </style>
+
+    <style name="TextStyle.H4.Bold" parent="TextStyle">
+        <item name="android:textSize">24sp</item>
+        <item name="fontWeight">700</item>
+        <item name="android:fontWeight" tools:targetApi="o">700</item>
+        <item name="android:textFontWeight" tools:targetApi="p">700</item>
+        <item name="android:textStyle">bold</item>
+        <item name="lineHeight">52.8dp</item>
+        <item name="android:lineHeight" tools:targetApi="p">52.8dp</item>
+    </style>
+
+    <style name="TextStyle.H5.Bold" parent="TextStyle">
+        <item name="android:textSize">20sp</item>
+        <item name="fontWeight">700</item>
+        <item name="android:fontWeight" tools:targetApi="o">700</item>
+        <item name="android:textFontWeight" tools:targetApi="p">700</item>
+        <item name="android:textStyle">bold</item>
+        <item name="lineHeight">52.8dp</item>
+        <item name="android:lineHeight" tools:targetApi="p">52.8dp</item>
+    </style>
+
+    <style name="TextStyle.H6.Bold" parent="TextStyle">
+        <item name="android:textSize">18sp</item>
+        <item name="fontWeight">700</item>
+        <item name="android:fontWeight" tools:targetApi="o">700</item>
+        <item name="android:textFontWeight" tools:targetApi="p">700</item>
+        <item name="android:textStyle">bold</item>
+        <item name="lineHeight">52.8dp</item>
+        <item name="android:lineHeight" tools:targetApi="p">52.8dp</item>
+    </style>
+
+    <style name="TextStyle.Body" parent="TextStyle">
+        <item name="lineHeight">19.6dp</item>
+        <item name="android:lineHeight" tools:targetApi="p">19.6dp</item>
+    </style>
+
+    <style name="TextStyle.Body.XLarge" parent="TextStyle.Body">
+        <item name="android:textSize">18sp</item>
+    </style>
+
+    <style name="TextStyle.Body.XLarge.Regular" parent="TextStyle.Body.XLarge">
+        <item name="android:textStyle">normal</item>
+    </style>
+
+    <style name="TextStyle.Body.XLarge.SemiBold" parent="TextStyle.Body.XLarge">
+        <item name="fontWeight">600</item>
+        <item name="android:fontWeight" tools:targetApi="o">600</item>
+        <item name="android:textFontWeight" tools:targetApi="p">600</item>
+    </style>
+
+    <style name="TextStyle.Body.XLarge.Bold" parent="TextStyle.Body.XLarge">
+        <item name="fontWeight">700</item>
+        <item name="android:fontWeight" tools:targetApi="o">700</item>
+        <item name="android:textFontWeight" tools:targetApi="p">700</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+
+    <style name="TextStyle.Body.XLarge.Medium" parent="TextStyle.Body.XLarge">
+        <item name="android:textStyle">normal</item>
+    </style>
+
+    <style name="TextStyle.Body.Large" parent="TextStyle.Body">
+        <item name="android:textSize">16sp</item>
+    </style>
+
+    <style name="TextStyle.Body.Large.Regular" parent="TextStyle.Body.Large">
+        <item name="android:textStyle">normal</item>
+    </style>
+
+    <style name="TextStyle.Body.Large.SemiBold" parent="TextStyle.Body.Large">
+        <item name="fontWeight">600</item>
+        <item name="android:fontWeight" tools:targetApi="o">600</item>
+        <item name="android:textFontWeight" tools:targetApi="p">600</item>
+    </style>
+
+    <style name="TextStyle.Body.Large.Bold" parent="TextStyle.Body.Large">
+        <item name="fontWeight">700</item>
+        <item name="android:fontWeight" tools:targetApi="o">700</item>
+        <item name="android:textFontWeight" tools:targetApi="p">700</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+
+    <style name="TextStyle.Body.Large.Medium" parent="TextStyle.Body.Large">
+        <item name="android:textStyle">normal</item>
+    </style>
+
+    <style name="TextStyle.Body.Medium" parent="TextStyle.Body">
+        <item name="android:textSize">14sp</item>
+    </style>
+
+    <style name="TextStyle.Body.Medium.Regular" parent="TextStyle.Body.Medium">
+        <item name="android:textStyle">normal</item>
+    </style>
+
+    <style name="TextStyle.Body.Medium.SemiBold" parent="TextStyle.Body.Medium">
+        <item name="fontWeight">600</item>
+        <item name="android:fontWeight" tools:targetApi="o">600</item>
+        <item name="android:textFontWeight" tools:targetApi="p">600</item>
+    </style>
+
+    <style name="TextStyle.Body.Medium.Bold" parent="TextStyle.Body.Medium">
+        <item name="fontWeight">700</item>
+        <item name="android:fontWeight" tools:targetApi="o">700</item>
+        <item name="android:textFontWeight" tools:targetApi="p">700</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+
+    <style name="TextStyle.Body.Medium.Medium" parent="TextStyle.Body.Medium">
+        <item name="android:textStyle">normal</item>
+    </style>
+
+    <style name="TextStyle.Body.Small" parent="TextStyle.Body">
+        <item name="android:textSize">12sp</item>
+    </style>
+
+    <style name="TextStyle.Body.Small.Regular" parent="TextStyle.Body.Small">
+        <item name="android:textStyle">normal</item>
+    </style>
+
+    <style name="TextStyle.Body.Small.SemiBold" parent="TextStyle.Body.Small">
+        <item name="fontWeight">600</item>
+        <item name="android:fontWeight" tools:targetApi="o">600</item>
+        <item name="android:textFontWeight" tools:targetApi="p">600</item>
+    </style>
+
+    <style name="TextStyle.Body.Small.Bold" parent="TextStyle.Body.Small">
+        <item name="fontWeight">700</item>
+        <item name="android:fontWeight" tools:targetApi="o">700</item>
+        <item name="android:textFontWeight" tools:targetApi="p">700</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+
+    <style name="TextStyle.Body.Small.Medium" parent="TextStyle.Body.Small">
+        <item name="android:textStyle">normal</item>
+    </style>
+
+    <style name="TextStyle.Body.XSmall" parent="TextStyle.Body">
+        <item name="android:textSize">10sp</item>
+    </style>
+
+    <style name="TextStyle.Body.XSmall.Regular" parent="TextStyle.Body.XSmall">
+        <item name="android:textStyle">normal</item>
+    </style>
+
+    <style name="TextStyle.Body.XSmall.SemiBold" parent="TextStyle.Body.XSmall">
+        <item name="fontWeight">600</item>
+        <item name="android:fontWeight" tools:targetApi="o">600</item>
+        <item name="android:textFontWeight" tools:targetApi="p">600</item>
+    </style>
+
+    <style name="TextStyle.Body.XSmall.Bold" parent="TextStyle.Body.XSmall">
+        <item name="fontWeight">700</item>
+        <item name="android:fontWeight" tools:targetApi="o">700</item>
+        <item name="android:textFontWeight" tools:targetApi="p">700</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+
+    <style name="TextStyle.Body.XSmall.Medium" parent="TextStyle.Body.XSmall">
+        <item name="android:textStyle">normal</item>
+    </style>
+</resources>

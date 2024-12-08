@@ -16,13 +16,19 @@ abstract class BaseActivity<VBinding : ViewBinding>(
         bindingInflater.invoke(layoutInflater)
     }
 
+    open val isFullScreen: Boolean = false
+
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         enableEdgeToEdge()
         setContentView(binding.root)
         ViewCompat.setOnApplyWindowInsetsListener(binding.root) { v, insets ->
             val systemBars = insets.getInsets(WindowInsetsCompat.Type.systemBars())
-            v.setPadding(systemBars.left, systemBars.top, systemBars.right, systemBars.bottom)
+            if (isFullScreen.not()) {
+                v.setPadding(systemBars.left, systemBars.top, systemBars.right, systemBars.bottom)
+            } else {
+                v.setPadding(0, 0, 0, systemBars.bottom)
+            }
             insets
         }
     }

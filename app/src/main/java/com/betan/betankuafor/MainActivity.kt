@@ -7,4 +7,7 @@ class MainActivity : BaseActivity<ActivityMainBinding>(
     ActivityMainBinding::inflate
 ) {
 
+    override val isFullScreen: Boolean
+        get() = true
+
 }

@@ -7,7 +7,7 @@ import com.betan.betankuafor.core.domain.UseCaseState
 import kotlinx.coroutines.flow.collectLatest
 import kotlinx.coroutines.launch
 
-class BaseViewModel : ViewModel() {
+abstract class BaseViewModel : ViewModel() {
 
     protected fun <PARAMS, RESULT> UseCase<PARAMS, RESULT>.action(
         params: PARAMS,
